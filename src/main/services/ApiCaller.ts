@@ -1,5 +1,7 @@
 import axios, { AxiosInstance } from 'axios';
 
+import {SOME_CONSTANT} from '@/constants';
+
 export class ApiCaller {
   static apiClient: AxiosInstance;
 
@@ -27,7 +29,7 @@ export class ApiCaller {
       url: '/fact',
       baseURL: 'https://catfact.ninja'
     })
-    throw new Error('oops!')
+    throw new Error(SOME_CONSTANT);
     return data;
   }
 }

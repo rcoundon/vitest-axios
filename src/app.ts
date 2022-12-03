@@ -1,4 +1,4 @@
-import {ApiCaller} from './services/ApiCaller';
+import {ApiCaller} from '@/services/ApiCaller';
 
 async function getData(){
   console.log(await ApiCaller.callApi());

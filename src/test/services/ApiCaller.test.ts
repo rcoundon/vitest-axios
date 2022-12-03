@@ -1,4 +1,4 @@
-import {ApiCaller} from './services/ApiCaller';
+import {ApiCaller} from '@/services/ApiCaller';
 import MockAdapter from 'axios-mock-adapter';
 
 import axios from 'axios';
