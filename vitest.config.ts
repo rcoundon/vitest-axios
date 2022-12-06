@@ -10,6 +10,8 @@ export default defineConfig({
     globals: true,
     include: ['**/*.test.ts'],
     cache: false,
+    outputTruncateLength: 10000,
+    outputDiffLines: 100000,
   },
   logLevel: 'error',
   esbuild: {
